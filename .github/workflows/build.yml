@@ -11,7 +11,7 @@ jobs:
     name: Build and deploy
     runs-on: ubuntu-latest
     env:
-      MY_SECRET   : ${{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}}
+      MY_SECRET   : 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
       USER_NAME   : <jamesjin63>
       USER_EMAIL  : <jamesjin63@163.com>
       BOOK_DIR    : book_sources
