@@ -1,10 +1,9 @@
 ### GBD data下载
 网址：[GBD](http://ghdx.healthdata.org/ihme_data)
 
-`Here is link`
-
-
-we add pictures here![青山知可子](./media/qing.jpg)
+1. [GBD Data Visualizations](http://www.healthdata.org/results/data-visualizations?field_topics_tid=15884&field_publication_date_value%5Bvalue%5D%5Byear%5D=&field_people_target_id=All&field_health_conditions_tid=All&field_risk_factors_tid=All&field_geography_global_tid=All&field_project_list_tid=All)
+2. 
+1. [GBD Compare | Viz Hub](https://vizhub.healthdata.org/gbd-compare/#)
 
 ### GBD 下载
 DW 下载

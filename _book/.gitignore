@@ -1,4 +1,6 @@
 # Node rules:
+node_modules/
+
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -8,9 +10,12 @@
 node_modules/
 
 # Book build output
-_book/
+
 
 # eBook build output
 *.epub
 *.mobi
 *.pdf
+
+# 忽略所有附檔名是 .tmp 的檔案
+*.tmp

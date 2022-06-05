@@ -14,12 +14,12 @@
           "-lunr",
           "-search",
           "search-pro",
-          "chapter-fold",
+
           "expandable-chapters",
           "splitter",
           "back-to-top-button",
           "hide-element",
-          "chapter-numbering",
+
           "code",
           "popup",
           "youtubex",

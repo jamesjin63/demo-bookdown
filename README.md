@@ -1,106 +1,65 @@
 
----
 
-Example [GitBook] website using GitLab Pages.
-
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+2022-06-01
 
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+欢迎来到《21天 极速学会R语言与数据分析》。
 
-- [GitLab CI](#gitlab-ci)
-- [Building locally](#building-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+本书旨在帮助你学习使用R和RStudio来处理和分析你的数据。从最基本的R操作到分析自己的数据，这本书专门为没有编程基础及统计基础的小白设计。本书由浅到深，后面也会介绍及展示高级分析如机器学习模型等内容。  
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+希望能够帮助同学们快速掌握一门数据分析技能。
 
-## GitLab CI
+---
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
+贡献者: jamesjin63，AnotherDayu
 
-```yaml
-# requiring the environment of NodeJS 8.9.x LTS (carbon)
-image: node:8.9
+## 准备工作
 
-# add 'node_modules' to cache for speeding up builds
-cache:
-  paths:
-    - node_modules/ # Node modules and dependencies
+真正开始用 R 语言之前，我们需要下载R安装包【[R官网下载](https://cran.r-project.org/)】。根据自己电脑选择安装包。
 
-before_script:
-  - npm install gitbook-cli -g # install gitbook
-  - gitbook fetch latest # fetch latest stable version
-  - gitbook install # add any requested plugins in book.json
-  #- gitbook fetch pre # fetch latest pre-release version
-  #- gitbook fetch 2.6.7 # fetch specific version
+R 语言安装完成后，我们还需安装 RStudio【[RStudio官网下载](https://www.rstudio.com/)】开发环境（虽然基本的 R 控制台也能工作）。也根据自己电脑系统下载安装。
 
-# the 'pages' job will deploy and build your site to the 'public' path
-pages:
-  stage: deploy
-  script:
-    - gitbook build . public # build to public path
-  artifacts:
-    paths:
-      - public
-  only:
-    - master # this job will affect only the 'master' branch
-```
+R与Rstudio的关系，就好比R是汽车发动机核心，Rstudio是装载发动机的汽车且装备一些列的配件。
 
-## Building locally
+![R+Rstudio](./media/readmef1.png)
 
-To work locally with this project, you'll have to follow the steps below:
+> 注意：  
+> 1. 安装好 R 之后，再安装 RStudio；  
+> 2. Windows 系统请将软件全部安装在 C 盘的默认位置 (可以自定义更改，但是R跟Rstudio的安装必须在同一个文件目录中)，否则程序将可能无法更新或运行。
 
-1. Fork, clone or download this project
-1. [Install][] GitBook `npm install gitbook-cli -g`
-1. Fetch GitBook's latest stable version `gitbook fetch latest`
-1. Preview your project: `gitbook serve`
-1. Add content
-1. Generate the website: `gitbook build` (optional)
-1. Push your changes to the master branch: `git push`
+**安装视频**：[R+Rstudio程序安装](https://www.bilibili.com/video/BV15V411E74f?spm_id_from=333.999.0.0)
 
-Read more at GitBook's [documentation][].
+---
 
-## GitLab User or Group Pages
+本书将从以下几个部分进行介绍
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+### 基础部分
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
 
-## Did you fork this project?
+1. 第一章：R基本操作
+1. 第二章：数据读写
+1. 第三章：数据清洗
+1.   第四章：数据可视化
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
 
-## Troubleshooting
 
-1. CSS is missing! That means two things:
+### 数据分析
 
-    Either that you have wrongly set up the CSS URL in your templates, or
-    your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
+1. 第五章：基础统计知识
+1. 第六章：GLM模型
+1. 第七章：GAM模型
 
-----
+### 番外篇
+1. 第八章：gglot2绘图
+2.  第九章：字符串处理
+3.  第十章：地图绘制
+3.  第十一章：机器学习模型
 
-Forked from @virtuacreative
 
-[ci]: https://about.gitlab.com/gitlab-ci/
-[GitBook]: https://www.gitbook.com/
-[host the book]: https://gitlab.com/pages/gitbook/tree/pages
-[install]: http://toolchain.gitbook.com/setup.html
-[documentation]: http://toolchain.gitbook.com
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
-# demo-build-and-publish-gitbook
-# RBookdown
-# RBookdown
+
+
+#### Contribution
+If you would like to make a content contribution, please contact with us first via Github issues or by jamesjin63@163.com. We are implementing a schedule for updates and are creating a contributor guide.
+
+>Epi-Hub Collaborators  --- National Institute of Parasitic Diseases, Chinese Center for Disease Control and Prevention; School of Global Health, Chinese Center for Tropical Diseases Research, Shanghai

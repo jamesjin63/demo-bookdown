@@ -27,6 +27,8 @@
   "devDependencies": {
     "grunt": "^1.5.3",
     "grunt-contrib-jshint": "^3.2.0",
-    "grunt-githooks": "^0.6.0"
+    "grunt-githooks": "^0.6.0",
+    "gitbook": "^3.2.3"
+
   }
 }
