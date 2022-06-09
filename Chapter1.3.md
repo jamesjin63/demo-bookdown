@@ -1,53 +1,98 @@
-### GBD data下载
-网址：[GBD](http://ghdx.healthdata.org/ihme_data)
+---
+title: HackMD Tutorial Book
+tags: tutorials
+disqus: hackmd
+---
 
-1. [GBD Data Visualizations](http://www.healthdata.org/results/data-visualizations?field_topics_tid=15884&field_publication_date_value%5Bvalue%5D%5Byear%5D=&field_people_target_id=All&field_health_conditions_tid=All&field_risk_factors_tid=All&field_geography_global_tid=All&field_project_list_tid=All)
-2. 
-1. [GBD Compare | Viz Hub](https://vizhub.healthdata.org/gbd-compare/#)
+HackMD Tutorial Book
+===
+**[中文版](/c/tutorials-tw)**
 
-### GBD 下载
-DW 下载
-1.[1990-2013](http://ghdx.healthdata.org/record/ihme-data/gbd-2013-incidence-prevalence-and-ylds-1990-2013)
-2.
+Feel free to leave comments below to request for (or contribute) tutorials on certain topics. 
+You can also leave comments below each tutorial to ask for clarifications or report bugs.
 
+If you want a quick overview of all features, visit [features](/features)
 
-### 糖尿病
-指标：
-1.  ASR
-2. 2017-1990： percentage change in ASR
-3. anunnal percentage change.b---（ASR= b*year+a）
+:::success 
+:tada: Try HackMD Prime Personal with the promo code "PrimerONE" for 30 days. 
+:::
 
-### Total
-1.  T1  DM
-1.  T2 DM
-
-##### 计算疾病指标
-
-1.incidence
-`1.  ASR
-2. 2017-1990： percentage change in ASR
-3. anunnal percentage change.b---（ASR= b*year+a）`
-4. 
-2.case
-3.death
-4.DAYL
-
-亚组分析
-1.地区
-国家
-洲区域
-SDI
-
-2.性别
-F
-M
-
-3.年龄分段
-各个年龄组
+![](https://i.imgur.com/1Y9G3Lr.png)
 
 
 
+Introduction
+---
+- [Welcome](/s/tutorials)
+- [Features](/s/features)
+- [Try HackMD Prime Personal, first month is on us :tada:](https://hackmd.io/@hackmd-marketing/Prime_Personal_english)
 
+Text Editor
+---
+- [Use Regular Expression to search in text editor](/s/how-to-regex-editor)
+- [Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet) [target=_blank]
+- [How to use MathJax & UML](/s/MathJax-and-UML)
+- [How to create table](/s/how-to-create-table)
+- [How to paste table from Excel ](/su-X7uWvRYSk3BklRd1aUg)
+- [How to search/open notes without leaving the one you are working on?](https://hackmd.io/@hackmd/spotlight-en)
+<!-- - [Tips on Mobile](/zr2FvF_URe2HhgWddVvmdQ) -->
 
+Collaboration
+---
+- [Invite others to a private note](/s/invite)
+- [Live Host a Collaborative Session](/s/live-hosting)
+- [Use comments to collaborate asynchronously](/s/how-to-use-comments)
 
+Relating Notes
+---
+- [Using Link Exploder to create a FAQ](/s/how-to-link-exploder)
+- [Embed another note](/s/how-to-embed-note)
 
+Notes Management
+---
+- [How to save versions](/s/how-to-save)
+- [How to sync with GitHub](/s/link-with-github)
+- [Publish with permalink](/s/how-to-publish-note)
+- [How to use template](/s/how-to-use-template)
+- [Tag notes](/s/how-to-tag-notes)
+- [How to use Tag List and Tag Filter](https://hackmd.io/@docs/how-to-use-tag-list-filter)
+- [Delete notes](/s/how-to-delete-note)
+- [Restore notes](/IMTm_HLuQYiR3Bz-1ngeXQ)
+- [What is YAML metadata and how to use it](https://hackmd.io/@docs/yaml-metadata)
+- [What is Personal Prime](/nWrT0zQaSQCNCrIbGXuTBg)
+
+Book Mode
+---
+- [How to create a book](/s/how-to-create-book)
+
+Slide Mode
+---
+- [How to create a slide deck](/s/how-to-create-slide-deck)
+
+Team Space
+---
+
+- [What is Team?](/@docs/what-is-team)
+- [Create and manage Team](/@docs/create-and-manage-team)
+- [Manage Team notes](/@docs/manage-team-notes)
+- [Insert image in Team notes](/@docs/insert-image-in-team-note)
+- [Unlock Team member limit](/@docs/unlock-team-member-limit)
+
+API
+---
+
+- [How to issue/revoke an API token?](https://hackmd.io/@docs/issue-revoke-api-token-en)
+- [Developer Portal](https://hackmd.io/@hackmd-api/developer-portal?utm_source=tutorial&utm_medium=book-section)
+
+Others
+---
+- [How to export to PDF](https://hackmd.io/@docs/export-to-pdf)
+- [Browser extension: HackMD-it](/s/hackmd-it)
+- [Command line tool: hackmd-cli](https://hackmd.io/@docs/hackmd-cli)
+- [Manage profile page](/s/all-about-profile-page)
+- [Choose your interface language](/s/how-to-choose-language)
+- [Making video calls with Tico Wondercall](/@docs/tico-wondercall-integration)
+- [Use with keyboard shortcuts](/@docs/keyboard-shortcuts)
+- [How to apply for non-profit sponsorship?](/@docs/NPOplan)
+
+###### tags: `tutorial`

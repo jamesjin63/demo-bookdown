@@ -1,0 +1,48 @@
+library(jsonlite)
+library(rjson)
+library(tidyverse)
+library(lubridate)
+rm(list = ls())
+filter=dplyr::filter
+select=dplyr::select
+
+# https://github.com/star428/python_spider_cov2021
+setwd("/Users/Anderson/Desktop/PhDwork/Py-Github/Scarping/weijianwei/baidu-index/")
+file=list.files(pattern = "flowout")
+
+
+## moveout
+dfc=tibble()
+for (i in file) {
+  dfx=read_json(i)
+  dfdata=dfx$data
+  a=dfdata$list
+  
+  df1=tibble(city=unlist(str_split(i,"flow"))[1],
+             time=as_date(names(a)),
+             moveout=unlist(a))
+  dfc=rbind(dfc,df1)
+}
+
+
+
+
+## movein
+file=list.files(pattern = "flowin")
+dfb=tibble()
+for (i in file) {
+  dfx=read_json(i)
+  dfdata=dfx$data
+  a=dfdata$list
+  
+  df1=tibble(city=unlist(str_split(i,"flow"))[1],
+             time=as_date(names(a)),
+             movein=unlist(a))
+  dfb=rbind(dfb,df1)
+}
+
+
+dfindex=left_join(dfc,dfb)
+
+setwd("/Users/Anderson/Desktop/PhDwork/Py-Github/Scarping/weijianwei")
+save(dfindex,file = "dfindex.Rdata")

@@ -1,0 +1,38 @@
+library(jsonlite)
+library(rjson)
+library(tidyverse)
+
+CODEBOOK=readxl::read_excel("/Users/Anderson/Desktop/PhD work/Py-Github/GBD_request/codebook.xls",1)
+setwd("/Users/Anderson/Desktop/PhD work/Py-Github/351/Risk89/")
+gbdfile=list.files(pattern = "index")
+
+
+df=c()
+for (i in 1:length(gbdfile)) {
+  a=read.csv(gbdfile[i],header = T) %>% 
+    as_tibble() %>% 
+    select(-1)
+  print(i)
+  df=rbind(df,a)
+}
+
+
+## 1. rename the colnames
+colnames(df)[1:7]=c("measure_id","location_id","sex_id","age_id","cause_id","rei_id","metric_id")
+## 2. get each id with name
+df4=left_join(df,CODEBOOK %>% select(measure_id,measure_name) %>% unique()) %>% 
+  left_join(CODEBOOK %>% select(location_id,location_name) %>% unique()) %>%
+  left_join(CODEBOOK %>% select(sex_id,sex_name) %>% unique()) %>%
+  left_join(CODEBOOK %>% select(age_id,age_name) %>% unique()) %>%
+  left_join(CODEBOOK %>% select(cause_id,cause_name) %>% unique()) %>%
+  left_join(CODEBOOK %>% select(rei_id,rei_name) %>% unique()) %>%
+  left_join(CODEBOOK %>% select(metric_id,metric_name) %>% unique()) 
+
+
+
+save(df4,file = "risk89_Global.Rdata")
+
+
+
+
+

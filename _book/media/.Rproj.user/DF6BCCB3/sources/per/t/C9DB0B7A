@@ -1,0 +1,28 @@
+{
+    "id": "C9DB0B7A",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1654530405667.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "c326437cc8e946d08596e0ee6db9cd6c",
+        "name": "dfx",
+        "title": "dfx",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 0,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1654530405667,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,7 @@
+library(tidyverse)
+df=read.csv("/Users/Anderson/Desktop/PhDwork/Bricks/WWM/CKD/Chronic_Kidney_Disease/500_Cities__Chronic_kidney_disease_among_adults_aged___18_years/diabetes_012_health_indicators_BRFSS2015.csv",header = T)
+
+df=read.csv("/Users/Anderson/Desktop/PhDwork/Bricks/WWM/CKD/Chronic_Kidney_Disease/健康监测/archive/2014.csv",header = T)
+library(jsonlite)
+library(rjson)
+dfx=read_json("/Users/Anderson/Desktop/PhDwork/Bricks/WWM/CKD/Chronic_Kidney_Disease/健康监测/archive/2015_formats.json")
