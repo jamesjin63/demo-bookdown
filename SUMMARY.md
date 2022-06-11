@@ -6,7 +6,7 @@
    * [1.2 R基本语句](Chapter1.2.md)
    * [1.3 数据导入导出](Chapter1.3.md)
  
-* [Chapter 2 数据清洗](Chapter2.markdown)
+* [Chapter 2 数据清洗](Chapter2.md)
 * [Chapter 3 简单的统计分析](Chapter3.md)
 * [Chapter 4 简单的统计图表](Chapter4.md)
   * [Chapter 4.1 三线表](Chapter4.1.md)
