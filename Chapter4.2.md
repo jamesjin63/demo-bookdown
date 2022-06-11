@@ -1,16 +1,13 @@
----
-title: 'ggplot 绘图'
-disqus: hackmd
----
 
-ggplot 绘图
+
+# ggplot 绘图
 
 
 [TOC]
 
 
 
-柱状图
+## 柱状图
 ---
 
 ```rust=
@@ -45,8 +42,8 @@ ggplot(df, aes(x = x, fill = group)) +
 ![](https://i.imgur.com/kK8ceo8.png)
 
 
-更改柱状图填充颜色
----
+## 更改柱状图填充颜色
+
 
 使用  `scale_fill_brewer() `自带的连续变色
 ```rust=
@@ -84,7 +81,7 @@ ggplot(df, aes(x = x, fill = group)) +
 ![](https://i.imgur.com/C1FYtf2.png)
 
 
-更改图例名称
+## 更改图例名称
 ---
 原来的`Group`更改为`Title`
 
