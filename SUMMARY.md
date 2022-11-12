@@ -20,5 +20,6 @@
   * [Chapter 5.1 线性回归模型](Chapter5.1.md)
   * [Chapter 5.2 Logistics回归模型](Chapter5.2.md)
 
-* [Chapter 6 回归模型](Chapter5.md)
+* [Chapter 6 回归模型](Chapter6.md)
+* [Chapter 7 ML](Chapter7.md)
 * [Chapter 8 Others](Chapter8.md)
