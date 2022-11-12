@@ -7,6 +7,7 @@
     "gitbook-plugin-ancre-navigation": "^1.0.0",
     "gitbook-plugin-auto-scroll-table": "^0.0.5",
     "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-bibtex-citation": "^1.1.1",
     "gitbook-plugin-bibtex-citations-and-references": "^0.10.4",
     "gitbook-plugin-bibtex-cite": "^1.1.0",
     "gitbook-plugin-chapter-fold": "^0.0.4",

@@ -11,10 +11,14 @@
 * [Chapter 4 简单的统计图表](Chapter4.md)
   * [Chapter 4.1 三线表](Chapter4.1.md)
   * [Chapter 4.2 统计图](Chapter4.2.md)
-
+  * [Chapter 4.3 柱状图](Chapter4.2.md)
+  * [Chapter 4.4 密度图](Chapter4.2.md)
+  * [Chapter 4.5 线图](Chapter4.2.md)
+  * [Chapter 4.6 热图](Chapter4.2.md)
   
 * [Chapter 5 回归模型](Chapter5.md)
   * [Chapter 5.1 线性回归模型](Chapter5.1.md)
   * [Chapter 5.2 Logistics回归模型](Chapter5.2.md)
 
 * [Chapter 6 回归模型](Chapter5.md)
+* [Chapter 8 Others](Chapter8.md)
